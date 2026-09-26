@@ -1,0 +1,34 @@
+{
+    "name": "@olegpolyakov/documents-core",
+    "version": "0.1.0",
+    "description": "",
+    "author": "Oleg Poliakov <olegpoliakov@outlook.com>",
+    "type": "module",
+    "exports": {
+        ".": "./src/index.ts",
+        "./entities": "./src/entities/index.ts"
+    },
+    "scripts": {
+        "lint": "eslint ./src",
+        "test": "vitest run",
+        "test:watch": "vitest"
+    },
+    "dependencies": {
+        "@olegpolyakov/core": "^0.9.1"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^8.62.1",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-react-hooks": "^7.1.1",
+        "eslint-plugin-simple-import-sort": "^13.0.0",
+        "typescript": "^5.9.3",
+        "vitest": "^4.0.18"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/olegpolyakov/documents-core.git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}
